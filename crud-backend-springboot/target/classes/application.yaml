@@ -1,0 +1,9 @@
+spring:
+  datasource:
+    url: jdbc:mysql://localhost:3306/contactdb?useSSL=false
+    username: root
+    password:
+
+  #JPA Settings
+  jpa.hibernate.ddl_auto: create
+
